@@ -91,19 +91,28 @@ assign d6 = (a&b&~c);
 assign d7 = (a&b&c);
 ```
 # RTL Logic
+
 ENCODER
+
 ![output](./encoderrtl.png)
 DECODER
+
 ![output](./decoderrtl%202.png)
 # Timing diagram
+
 ENCODER
+
 ![output](./encoderwf%203.png)
 DECODER
+
 ![output](./decoderwf%204.png)
 # Truthtable
+
 ENCODER
 ![output](./encodertable%205.png)
+
 DECODER
+
 ![output](./decodertable%206.png)
 
 
