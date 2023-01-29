@@ -65,6 +65,7 @@ Program for Endocers and Decoders  and verify its truth table in quartus using V
 Developed by: Karthikeyan R
 RegisterNumber:  22009322
 */
+```
 Encoder:
 
 module Encoder(a,b,c,d0,d1,d2,d3,d4,d5,d6,d7);
@@ -88,36 +89,22 @@ assign d4 = (a&~b&~c);
 assign d5 = (a&~b&c);
 assign d6 = (a&b&~c);
 assign d7 = (a&b&c);
-
-
-
-
-
-### RTL LOGIC  
+```
+# RTL Logic
 ENCODER
 ![output](./encoderrtl.png)
 DECODER
-![output](./decoderrtl.png)
-
-
-
-
-
-
-
-### TIMING DIGRAMS  
+![output](./decoderrtl%202.png)
+# Timing diagram
 ENCODER
-![output](./encoderwf.png)
+![output](./encoderwf%203.png)
 DECODER
-![output](./decoderwf.png)
-
-
-
-### TRUTH TABLE 
+![output](./decoderwf%204.png)
+# Truthtable
 ENCODER
-![output](./encodertable.png)
+![output](./encodertable%205.png)
 DECODER
-![output](./decodertable.png)
+![output](./decodertable%206.png)
 
 
 
